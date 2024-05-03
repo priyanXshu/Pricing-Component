@@ -210,11 +210,11 @@ h4 {
 }
 
 
-@media (max-width: 375px) {
+@media (max-width: 62em) {
   body {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 90vh;
     max-width: 100%;
   }
 
@@ -222,11 +222,11 @@ h4 {
     display: flex;
     flex-direction: column;
     min-width: 20em;
-    gap: 2em; 
+    gap: 1em; 
   }
 
   .main {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
   }
 
   .bg-bottom {
@@ -238,7 +238,7 @@ h4 {
     background-color: white;
     border-radius: 20px;
     padding: 1em;
-    min-height: 80vh;
+    min-height: 50vh;
   }
 
   #cards .card:nth-child(2) * {
